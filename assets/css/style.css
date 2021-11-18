@@ -159,3 +159,35 @@ ul li img {
 
 /*media query starts*/
 /*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+  ul { flex-direction: column; }
+
+  ul li {
+    width: 80%;
+    height: 80px;
+    margin: 10px auto;
+  }
+
+  ul li.show {
+    width: 80%;
+    height: 100%;
+  }
+
+  ul li img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*media query for 540px starts here*/
+@media only screen and (max-width: 540px) {
+  ul li {
+    width: 90%;
+    height: 50px;
+  }
+
+  ul li.show {
+    width: 90%;
+    height: 100%;
+  }
+}
