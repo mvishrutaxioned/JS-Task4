@@ -130,10 +130,11 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
 }
 
 ul li {
-  width: 80px;
+  width: 8%;
   height: 75vh;
   margin: 0 10px;
   border-radius: 50px;
@@ -143,7 +144,7 @@ ul li {
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  transition: .8s ease;
+  transition: .5s ease;
 }
 
 ul li.show { width: 60%; }
@@ -151,6 +152,7 @@ ul li.show { width: 60%; }
 ul li img {
   width: auto;
   height: 100%;
+  border-radius: 50px;
 }
 
 /*=================================
@@ -170,7 +172,7 @@ ul li img {
 
   ul li.show {
     width: 80%;
-    height: 100%;
+    height: auto;
   }
 
   ul li img {
@@ -188,6 +190,6 @@ ul li img {
 
   ul li.show {
     width: 90%;
-    height: 100%;
+    height: auto;
   }
 }
